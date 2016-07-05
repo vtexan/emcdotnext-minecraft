@@ -14,5 +14,7 @@ EXPOSE 25565
 
 WORKDIR /games
 
+COPY server.properties /games/
+
 ENTRYPOINT [ "java", "-Xmx1024M", "-Xms1024M", "-jar", "/games/minecraft_server.jar" ]
 CMD ["nogui"]
