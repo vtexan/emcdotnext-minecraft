@@ -41,3 +41,6 @@ this will download and setup minecraft 1.10.2 and we've altered the server.prope
 ## How to startup Minecraft
 
 docker run -ti -p 25565:25565 dotnext-monecraft (or whatever you called the minecraft docker container)  
+
+## Maintainer  
+* Tommy Trogden = @vtexan  
