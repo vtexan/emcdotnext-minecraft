@@ -9,7 +9,7 @@ This is documentation is based on Mac OSX:
 Open Terminal  
 Create a projects folder "mkdir projects"  
 
-##Persistent Storage:##  
+## Persistent Storage:##  
 For the persistent storage part of this demo, we will be using the EMC{CODE} Vagrant Package.  You will need to install the following vagrant-triggers plugin to be installed:
 
 vagrant plugin install vagrant-triggers
