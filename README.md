@@ -41,7 +41,7 @@ We also altered level-name=../data to place the Minecraft world on a REX-Ray att
 
 ## How to startup Minecraft
 
-docker run -ti -p 25565:25565 dotnext-monecraft (or whatever you called the minecraft docker container)  
+docker run -ti -p 25565:25565 dotnext-minecraft (or whatever you called the minecraft docker container)  
 
 ## Maintainer  
 * Tommy Trogden = @vtexan  
