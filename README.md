@@ -37,6 +37,7 @@ vagrant ssh tb (this is the tiebreaker node, you can use the mdm1 or mdm2 node i
 docker pull vtexan/emcdotnext-minecraft  
 
 this will download and setup minecraft 1.10.2 and we've altered the server.properties of this game with spawn-monsters=off for demo purposes.  You can edit the server.properties=true if you want to play the game with monsters.  
+We also altered level-name=../data to place the Minecraft world on a REX-Ray attached volume mount called /data  
 
 ## How to startup Minecraft
 
