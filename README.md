@@ -5,7 +5,7 @@ Project: emcdotnext Team Minecraft + Docker + ScaleIO + REX-Ray demo.
 
 ## Process
 
-This is documentation is based on Mac OSX:  
+This documentation is based on Mac OSX:  
 Open Terminal  
 Create a projects folder "mkdir projects"  
 
