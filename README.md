@@ -1,6 +1,6 @@
 # emcdotnext-minecraft
 
-Project: EMCDotNext Team Minecraft + Docker + ScaleIO + REX-Ray demo.
+Project: emcdotnext Team Minecraft + Docker + ScaleIO + REX-Ray demo.
 
 
 ## Process
@@ -23,9 +23,11 @@ cd into the scaleio folder and run:
 
 vagrant up
 
-This process will automatically deploy three CentoOS 7.1 nodes, download the ScaleIO 2.0 software and install a full ScaleIO Cluster with GUI. It will also setup Docker and REX-Ray  
+This process will automatically deploy three CentoOS 7.1 nodes, download the ScaleIO 2.0 software and install a full ScaleIO Cluster with GUI. It will also setup Docker and REX-Ray to give the containers storage persistence.  Please note, more REX-Ray information can be found here:  
 
-You can find more documentation on this setup here: https://github.com/emccode/vagrant/tree/master/scaleio    
+  https://github.com/emccode/vagrant/tree/master/rexray
+
+You can find more documentation on this vagrant setup here: https://github.com/emccode/vagrant/tree/master/scaleio    
 
 Once ScaleIO is done, you can launch the GUI - projects/vagrant/scaleio/gui/run.sh. (Just use Finder on your Mac and drag the run.sh file into Terminal and hit enter)    
 
