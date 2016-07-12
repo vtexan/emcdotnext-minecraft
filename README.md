@@ -9,7 +9,7 @@ This is documentation is based on Mac OSX:
 Open Terminal  
 Create a projects folder "mkdir projects"  
 
-## Persistent Storage:
+## Persistent Storage
 For the persistent storage part of this demo, we will be using the EMC{CODE} Vagrant Package.  You will need to install the following vagrant-triggers plugin to be installed:
 
 vagrant plugin install vagrant-triggers
@@ -38,6 +38,6 @@ docker pull vtexan/emcdotnext-minecraft
 
 this will download and setup minecraft 1.10.2 and we've altered the server.properties of this game with spawn-monsters=off for demo purposes.  You can edit the server.properties=true if you want to play the game with monsters.  
 
-## How to startup Minecraft:
+## How to startup Minecraft
 
 docker run -ti -p 25565:25565 dotnext-monecraft (or whatever you called the minecraft docker container)  
