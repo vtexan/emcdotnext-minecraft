@@ -53,7 +53,7 @@ We also altered level-name=../data to place the Minecraft world on a REX-Ray att
 docker run -ti -p 25565:25565 dotnext-minecraft (or whatever you called the minecraft docker container)
 
 ### Questions / Comments / Snide Remarks  
-Ask any questions, make comments etc on the community.emccode.com Slack Channel - post them in the EMC channel specifically
+Ask any questions, make comments, etc on the community.emccode.com Slack Channel - post them in the EMC channel specifically
 
 ### Maintainer  
 * Tommy Trogden = @vtexan
