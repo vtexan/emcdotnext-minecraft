@@ -30,7 +30,7 @@ cd into the scaleio folder and run:
 
 vagrant up
 
-This process will automatically deploy three CentoOS 7.1 nodes, download the ScaleIO 2.0 software and install a full ScaleIO Cluster with GUI. It will also setup Docker and REX-Ray to give the containers storage persistence.  Please note, more REX-Ray information can be found here:  
+This process will automatically deploy three CentOS 7.1 nodes, download the ScaleIO 2.0 software and install a full ScaleIO Cluster with GUI. It will also setup Docker and REX-Ray to give the containers storage persistence.  Please note, more REX-Ray information can be found here:  
 
   https://github.com/emccode/vagrant/tree/master/rexray
 
