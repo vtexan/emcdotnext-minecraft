@@ -12,7 +12,7 @@ This documentation is based on Mac OSX:
 Open Terminal  
 Create a projects folder "mkdir projects"  
 
-## Persistent Storage
+### Persistent Storage
 For the persistent storage part of this demo, we will be using the EMC{CODE} Vagrant Package.  You will need to install the following vagrant-triggers plugin:
 
 vagrant plugin install vagrant-triggers
@@ -34,7 +34,7 @@ You can find more documentation on this vagrant setup here: https://github.com/e
 
 Once ScaleIO is done, you can launch the GUI - projects/vagrant/scaleio/gui/run.sh. (Just use Finder on your Mac and drag the run.sh file into Terminal and hit enter)    
 
-## Minecraft
+### Minecraft
 
 Once ScaleIO is up and running, and you've verified it with the GUI - SSH into one of the CentOS servers
 vagrant ssh tb (this is the tiebreaker node, you can use the mdm1 or mdm2 node if you want as well)  
@@ -44,9 +44,13 @@ docker pull vtexan/emcdotnext-minecraft
 this will download and setup minecraft 1.10.2 and we've altered the server.properties of this game with spawn-monsters=off for demo purposes.  You can edit the server.properties=true if you want to play the game with monsters.  
 We also altered level-name=../data to place the Minecraft world on a REX-Ray attached volume mount called /data  
 
-## How to startup Minecraft
+### How to startup Minecraft
 
-docker run -ti -p 25565:25565 dotnext-minecraft (or whatever you called the minecraft docker container)  
+docker run -ti -p 25565:25565 dotnext-minecraft (or whatever you called the minecraft docker container)
 
-## Maintainer  
-* Tommy Trogden = @vtexan  
+### Questions / Comments / Snide Remarks  
+Ask any questions, make comments etc on the community.emccode.com Slack Channel - post them in the EMC channel specifically 
+
+### Maintainer  
+* Tommy Trogden = @vtexan
+* Brian Verkley = @bverkley
