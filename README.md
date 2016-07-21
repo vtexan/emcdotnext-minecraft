@@ -13,6 +13,10 @@ Open Terminal
 Create a projects folder "mkdir projects"  
 
 ### Persistent Storage
+
+![alt text](http://www.vtexan.com/wp-content/uploads/2016/07/Vagrant-ScaleIO-RexRay.png "Logo Title Text 1")      
+(Image Credit @Rick_Scherer)  
+
 For the persistent storage part of this demo, we will be using the EMC{CODE} Vagrant Package.  You will need to install the following vagrant-triggers plugin:
 
 vagrant plugin install vagrant-triggers
@@ -49,7 +53,7 @@ We also altered level-name=../data to place the Minecraft world on a REX-Ray att
 docker run -ti -p 25565:25565 dotnext-minecraft (or whatever you called the minecraft docker container)
 
 ### Questions / Comments / Snide Remarks  
-Ask any questions, make comments etc on the community.emccode.com Slack Channel - post them in the EMC channel specifically 
+Ask any questions, make comments etc on the community.emccode.com Slack Channel - post them in the EMC channel specifically
 
 ### Maintainer  
 * Tommy Trogden = @vtexan
