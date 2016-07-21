@@ -19,7 +19,7 @@ Create a projects folder "mkdir projects"
 
 For the persistent storage part of this demo, we will be using the EMC{CODE} Vagrant Package.  You will need to install the following vagrant-triggers plugin:
 
-vagrant plugin install vagrant-triggers
+`vagrant plugin install vagrant-triggers`
 
 In the projects folder run  
 
