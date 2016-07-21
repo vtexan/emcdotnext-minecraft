@@ -1,8 +1,8 @@
 # emcdotnext-minecraft
 
-![alt text](http://www.vtexan.com/wp-content/uploads/2016/07/Minecraft-Docker-.png "Logo Title Text 1")
+![alt text](http://www.vtexan.com/wp-content/uploads/2016/07/Minecraft-Docker-.png "Logo Title Text 1")  (Image Credit @Rick_Scherer)  
 
-Project: emcdotnext Team Minecraft + Docker + ScaleIO + REX-Ray demo.
+## Project: emcdotnext Team Minecraft + Docker + ScaleIO + REX-Ray demo.
 
 
 ## Process
