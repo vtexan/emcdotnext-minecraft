@@ -56,6 +56,6 @@ We also altered level-name=../data to place the Minecraft world on a REX-Ray att
 Ask any questions, make comments, etc on the community.emccode.com Slack Channel - post them in the EMC channel specifically
 
 ### Maintainer  
-* Tommy Trogden = [@vTexan] (http://twitter.com/vtexan)
+* Tommy Trogden = <a href="http://twitter.com/vtexan" target="_blank" >@vTexan</a>
 * Brian Verkley = [@BVerkley] (http://twitter.com/BVerkley)
 * Fabio Chiodini = [@FabioChiodini] (http://twitter.com/FabioChiodini)
