@@ -43,14 +43,11 @@ Once ScaleIO is done, you can launch the GUI - projects/vagrant/scaleio/gui/run.
 Once ScaleIO is up and running, and you've verified it with the GUI - SSH into one of the CentOS servers
 vagrant ssh tb (this is the tiebreaker node, you can use the mdm1 or mdm2 node if you want as well)  
 
-`docker pull vtexan/emcdotnext-minecraft`  
 
 this will download and setup minecraft 1.10.2 and we've altered the server.properties of this game with spawn-monsters=off for demo purposes.  You can edit the server.properties=true if you want to play the game with monsters.  
 We also altered level-name=../data to place the Minecraft world on a REX-Ray attached volume mount called /data  
 
-### How to startup Minecraft
-
-`docker run -ti -p 25565:25565 dotnext-minecraft` (or whatever you called the minecraft docker container)
+`sudo docker run -p 25565:25565 --volume-driver=rexray -v minecraft-data:/data vtexan/emcdotnext-minecraft `
 
 ### Questions / Comments / Snide Remarks  
 Ask any questions, make comments, etc on the community.emccode.com Slack Channel - post them in the EMC channel specifically
