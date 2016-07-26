@@ -25,7 +25,8 @@ In the projects folder run
 
  `git clone https://github.com/emccode/vagrant`  
 
-cd into the projects folder  
+cd into the projects folder 
+cd into the vagrant folder
 cd into the scaleio folder and run:  
 
 `vagrant up`
@@ -36,12 +37,14 @@ This process will automatically deploy three CentOS 7.1 nodes, download the Scal
 
 You can find more documentation on this vagrant setup here: `https://github.com/emccode/vagrant/tree/master/scaleio`    
 
-Once ScaleIO is done, you can launch the GUI - projects/vagrant/scaleio/gui/run.sh. (Just use Finder on your Mac and drag the run.sh file into Terminal and hit enter)    
+Once ScaleIO is done, you can launch the GUI - `projects/vagrant/scaleio/gui/run.sh.` (Just use Finder on your Mac and drag the run.sh file into Terminal and hit enter) 
+Username = admin  
+Password = Scaleio123  
 
 ### Minecraft
 
 Once ScaleIO is up and running, and you've verified it with the GUI - SSH into one of the CentOS servers
-vagrant ssh tb (this is the tiebreaker node, you can use the mdm1 or mdm2 node if you want as well)  
+`vagrant ssh tb` (this is the tiebreaker node, you can use the mdm1 or mdm2 node if you want as well)  
 
 
 this will download and setup minecraft 1.10.2 and we've altered the server.properties of this game with spawn-monsters=off for demo purposes.  You can edit the server.properties=true if you want to play the game with monsters.  
@@ -55,3 +58,4 @@ Ask any questions, make comments, etc on the community.emccode.com Slack Channel
 ### Maintainer  
 * Tommy Trogden = @vtexan
 * Brian Verkley = @bverkley
+* Fabio Chiodini = @FabioChiodini 
