@@ -10,7 +10,6 @@ RUN  echo "eula=true" > /games/eula.txt
 
 EXPOSE 25565
 
-# VOLUME ["/data"] - Maybe Rex-Ray command in the future
 
 WORKDIR /games
 
