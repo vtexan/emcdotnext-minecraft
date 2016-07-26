@@ -18,10 +18,11 @@ RUN  echo "eula=true" > /app/eula.txt
 # Expose the default Minecraft server port
 EXPOSE 25565
 
-
-WORKDIR /app
-
+# add in a custom server.properties file that sets the world to the /data directory and turns off monsters (because I don't want to die while demo-ing :-)
 COPY server.properties /app/
 
-ENTRYPOINT [ "java", "-Xmx1024M", "-Xms1024M", "-jar", "/app/minecraft_server.jar" ]
-CMD ["nogui"]
+# set the working directory
+WORKDIR /app
+
+# start the server
+ENTRYPOINT [ "java", "-Xmx1024M", "-Xms1024M", "-jar", "/app/minecraft_server.jar", "nogui" ]
