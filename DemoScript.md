@@ -14,13 +14,14 @@ Execute the container without using REX-Ray:
 sudo docker run -p 25565:25565 vtexan/emcdotnext-minecraft
 ```
 Connect to the Minecraft server referenced in the README file
-
-`vagrant ssh tb`
+``
+`vagrant ssh tb`  
+``
 
 FYI on Names and IP address for ScaleIO   
-ScaleIO tb = 192.168.1.50.11
-ScaleIO mdm1 = 192.168.50.12
-ScaleIO mdm2 = 192.168.50.13
+ScaleIO tb = 192.168.1.50.11  
+ScaleIO mdm1 = 192.168.50.12  
+ScaleIO mdm2 = 192.168.50.13  
 
 Do something inside Minecraft (destroy a tile/get something added to your inventory)
 
