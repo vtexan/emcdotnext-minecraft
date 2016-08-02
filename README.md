@@ -21,15 +21,9 @@ For the persistent storage part of this demo, we will be using the EMC{CODE} Vag
 
 `vagrant plugin install vagrant-triggers`
 
-In the projects folder run  
-
  `git clone https://github.com/emccode/vagrant`  
-
-cd into the projects folder
-cd into the vagrant folder
-cd into the scaleio folder and run:  
-
-`vagrant up`
+ `cd vagrant/scaleio`
+ `vagrant up`
 
 This process will automatically deploy three CentOS 7.1 nodes, download the ScaleIO 2.0 software and install a full ScaleIO Cluster with GUI. It will also setup Docker and REX-Ray to give the containers storage persistence.  Please note, more REX-Ray information can be found here:  
 
